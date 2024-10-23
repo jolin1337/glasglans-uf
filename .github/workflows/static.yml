@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Init new repo in dist folder and commit generated files
         run: |
-          npm run install
+          npm install
           npm run build
           #cd dist
           #git init
